@@ -1,0 +1,5 @@
+even_odd = lambda num: "Even" if num % 2 == 0 else "Odd"
+num1 = 24
+num2 = 15
+print(f"{num1} is {even_odd(num1)}")
+print(f"{num2} is {even_odd(num2)}")
