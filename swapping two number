@@ -1,0 +1,7 @@
+m=2
+n=2
+print(f"before swapping:m value={m}:n value={n}")
+temp=m
+m=n
+n=temp
+print(f"after swapping:m value={m}:n value={n}")
