@@ -1,0 +1,5 @@
+sum_of evens=0
+for number in range(1,101)
+if number%2==0
+sum_of_evens+=number
+print("sum of even number between 1 and 100:",sum_of_evens)
