@@ -1,0 +1,9 @@
+def find_largest_number(num1, num2, num3):
+    numbers = [num1, num2, num3]
+    numbers.sort()
+    return numbers[-1]
+num1 = 50
+num2 = 40
+num3 = 30
+largest_number = find_largest_number(num1, num2, num3)
+print(f"The largest number among {num1}, {num2}, {num3} is: {largest_number}")
