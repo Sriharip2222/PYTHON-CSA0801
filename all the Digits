@@ -1,0 +1,7 @@
+def increment_digits(num):
+    num_str = str(num)
+    sum_digits = sum(int(digit) + 1 for digit in num_str)
+    return sum_digits
+num = 123
+result = increment_digits(num)
+print(f"Sum of digits after incrementing by 1: {result}")
