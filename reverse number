@@ -1,0 +1,7 @@
+def reverse_number(num):
+    return int(str(num)[::-1])
+
+# Test the function
+number = 1234
+reversed_number = reverse_number(number)
+print(f"The reversed number of {number} is {reversed_number}")
