@@ -1,0 +1,9 @@
+def categorize_height(height):
+    if height > 180:
+        return "Taller"
+    elif height < 150:
+        return "Dwarf"
+    else:
+        return "Average"
+person_height = 160
+print(f"A person with height {person_height}cm is categorized as {categorize_height(person_height)}")
