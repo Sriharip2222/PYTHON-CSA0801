@@ -1,0 +1,9 @@
+def sum_of_digits(number):
+    sum_digits = 0
+    for digit in str(number):
+        sum_digits += int(digit)
+    return sum_digits
+number1 = 14892
+print(f"Sum of digits of {number1}: {sum_of_digits(number1)}")
+number2 = 3721
+print(f"Sum of digits of {number2}: {sum_of_digits(number2)}")
